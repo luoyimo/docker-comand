@@ -46,11 +46,22 @@ docker port containerId portNumber
 ---
 
 后台运行 
+
 docker run -d image
 
 ---
 
 端口映射
+
 docker run -p 6000:6000 image
 
 ---
+
+命名
+
+docker run --name=test image
+
+---
+
+docker run  --help
+
