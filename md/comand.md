@@ -42,3 +42,15 @@ docker run -it --volumes-from dbdata --name db2 ubuntu
 查看映射端口配置
 
 docker port containerId portNumber
+
+---
+
+后台运行 
+docker run -d image
+
+---
+
+端口映射
+docker run -p 6000:6000 image
+
+---
